@@ -5,8 +5,35 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="styles.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+      integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
     <script defer src="script.js"></script>
     <title>Progress Bar</title>
   </head>
-  <body></body>
+  <body>
+    <main>
+      <div class="progress">
+        <h3>progressBar</h3>
+        <progress
+          class="progress__Bar"
+          id="progressBar"
+          value="0"
+          max="100"
+        ></progress>
+      </div>
+      <div class="buttonsDiv">
+        <button type="submit" id="btnTilbake">
+          <i class="fa-solid fa-circle-left"></i>
+        </button>
+        <button type="submit" id="btnFrem">
+          <i class="fa-solid fa-circle-right"></i>
+        </button>
+      </div>
+    </main>
+  </body>
 </html>
